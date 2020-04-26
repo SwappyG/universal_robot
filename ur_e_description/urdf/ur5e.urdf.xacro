@@ -355,8 +355,8 @@
       </collision>
     </link>
 
-    <xacro:ur_arm_transmission prefix="${prefix}" />
-    <xacro:ur_arm_gazebo prefix="${prefix}" />
+<!--    <xacro:ur_arm_transmission prefix="${prefix}" />
+    <xacro:ur_arm_gazebo prefix="${prefix}" />-->
 
     <!-- ROS base_link to UR 'Base' Coordinates transform -->
     <link name="${prefix}base"/>
